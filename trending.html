@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Naija Net</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <nav>
+        <div class="top-nav">
+            <div class="top-nav-left">
+                <a href="#">codezilar@gmail.com</a>
+                <a href="#">Help || Support</a>
+            </div>
+            <div class="top-nav-right">
+                <a href="#">#</a>
+                <a href="#">#</a>
+                <a href="#">#</a>
+                <a href="#">#</a>
+            </div>
+        </div>
+        <div class="sec-nav">
+            <div class="sec-nva-left">
+                <h1>QUIVER</h1>
+            </div>
+            <div class="nav-contact">
+                <div class="address">
+                    <div class="sec-icon">
+
+                    </div>
+                    <div class="sec-reach">
+                        <h6>ADDRESS</h6>
+                        <P>ABUJA</P>            
+                    </div>
+                </div> 
+                <div class="calls">
+                    <div class="sec-icon">
+
+                    </div>
+                    <div class="sec-reach">
+                        <h6>CALL US</h6>
+                        <P>+234-7048632016</P>            
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="third-nav">
+
+            <div class="third-item">
+                <ul>
+                    <a href="#">HOME</a>
+                    <a href="#">ADVENTURE</a>
+                    <a href="#">ACTION</a>
+                    <a href="#">CARTOON & ANIME'S</a>
+                    <a href="#">HORROR</a>
+                    <a href="#">DRAMA</a>
+                    <a href="#">SERIES</a>
+                    <a href="#">COMEDY</a>
+                    <a href="#">ROMANCE</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- hero -->
+
+   <!-- main and grids -->
+    <div class="main">
+        <div class="second-container">
+            <div class="trendslide mySwiper">   
+                <h1>Trending</h1>
+                <div class="swiper-wrapper">
+                    <article class="swiper-slide">
+                        <div class="trend-pic">
+                            <img src="./images/luca.jpg" alt="">
+                        </div>
+                        <div class="react">
+                            <div class="react-container">
+                                <a href="">
+                                    <div class="reac like">
+                                        <h3>@</h3>
+                                    </div>                                    
+                                </a>
+                                <a href="">
+                                    <div class="reac dislike">
+                                        <h3>#</h3>
+                                    </div>                                    
+                                </a>
+                                <a href="">
+                                    <div class="reac comment">
+                                        <h3>Q</h3>
+                                    </div>                                    
+                                </a>
+                            </div>
+                            <a href="">
+                                <div class="reac download">
+                                    <h3>?</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="trend_info">
+                            <div class="player">
+                                <p>9.5</p>
+                                <p>120 Mins</p>
+                                <p>HD</p>
+                                <p>13+</p>
+                            </div>
+                            <div class="write">
+                                <h4>
+                                    Venom
+                                </h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est necessitatibus reiciendis saepe deleniti nesciunt enim rerum beatae, accusamus illo eaque.
+                                </p>
+                            </div>
+                        </div>
+                    </article>        
+                </div>        
+                <div class="swiper-pagination"></div>
+            </div>
+           
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            dynamicBullets: true,
+          },
+          // when window width is >= 600
+          breakpoints: {
+              600: {
+                  slidesPerView: 3,
+              }
+          }
+        });
+      </script>
+</body>
+</html>
